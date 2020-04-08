@@ -12,6 +12,7 @@ https://github.com/kseniya-bv/elementor-test.git
 
 go to directory and run command :
 npm install
+
 npm start
 
 run your Appachi server
