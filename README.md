@@ -10,7 +10,9 @@ https://github.com/kseniya-bv/elementor-test.git
 
 #Run project:
 
-go to directory and run command : npm start
+go to directory and run command :
+npm install
+npm start
 
 run your Appachi server
 change API_END_POINT (index.js : 5) if nessesary
