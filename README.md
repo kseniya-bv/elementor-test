@@ -16,5 +16,5 @@ npm install
 
 npm start
 
-run your Appachi server
+run your Apache server
 change API_END_POINT (index.js : 5) if nessesary
