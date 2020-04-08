@@ -62,7 +62,7 @@ const modal = new Modal("my-modal")
             })
             .catch(function (error) {
                 // handle error
-                console.log(error)
+                alert(error)
             })
         }
         else{
