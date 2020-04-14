@@ -14,8 +14,9 @@ class Modal {
 
     show(data) {
         // Set HTML content
-        this.elem.getElementsByClassName('title')[0].innerHTML = data.title
-        this.elem.getElementsByClassName('content')[0].innerHTML = data.text
+        const {title, text} = data
+        this.elem.getElementsByClassName('title')[0].innerHTML = title
+        this.elem.getElementsByClassName('content')[0].innerHTML = text
         this.elem.style.display = "block"
         this.toggleBtn()
       
